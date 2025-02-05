@@ -207,4 +207,34 @@ html {
   .bio {
     font-size: 1rem;
   }
-} 
+}
+
+/* Custom Icon Font */
+@font-face {
+  font-family: 'CustomIcons';
+  src: url('../fonts/custom-icons.woff') format('woff'),
+       url('../fonts/custom-icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'CustomIcons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-envelope:before { content: "\e945"; }
+.icon-phone:before { content: "\e942"; }
+.icon-location:before { content: '\e947'; }
+.icon-facebook:before { content: '\ea90'; }
+.icon-instagram:before { content: '\ea92'; }
+.icon-linkedin:before { content: '\eaca'; }
+.icon-github:before { content: '\eab0'; }
+.icon-robot:before { content: "\e900"; } 

@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="img/favicon/android-chrome-512x512.png">  
     <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-    <link rel="preload" href="img/back_a_1920_1280_min.jpg" as="image">
+    <link rel="preload" href="img/back_a_1920_1280_min.webp" as="image" type="image/webp">
 
     <!-- Critical CSS -->
     <style>
@@ -144,7 +144,7 @@
     </style>
 
     <!-- Preload critical resources -->
-    <link rel="preload" href="img/back_a_1920_1280_min.jpg" as="image">
+    <link rel="preload" href="img/back_a_1920_1280_min.webp" as="image" type="image/webp">
     <link 
       rel="preload" 
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap"
@@ -185,6 +185,16 @@
       <section class="banner">
         <picture class="banner-background">
           <source
+            srcset="img/back_a_1920_1280_min.webp"
+            type="image/webp"
+            media="(min-width: 768px)"
+          >
+          <source
+            srcset="img/back_a_960_640_min.webp"
+            type="image/webp"
+            media="(max-width: 767px)"
+          >
+          <source
             srcset="img/back_a_1920_1280_min.jpg"
             media="(min-width: 768px)"
           >
@@ -224,7 +234,16 @@
               </div>
             </div>
             <div class="spotlight-image">
-              <img src="img/ppl_min.jpg" alt="Leadership" loading="lazy" width="100%" height="75%">
+              <picture>
+                <source srcset="img/ppl_min.webp" type="image/webp">
+                <img 
+                  src="img/ppl_min.jpg" 
+                  alt="Leadership" 
+                  loading="lazy" 
+                  width="100%" 
+                  height="75%"
+                >
+              </picture>
             </div>
           </div>
         </div>
@@ -234,7 +253,16 @@
         <div class="container-fluid text-center">
           <div class="spotlight-content">
             <div class="spotlight-image">
-              <img src="img/bridge_min.jpg" alt="Entrepreneurship" loading="lazy" width="100%" height="75%">
+              <picture>
+                <source srcset="img/bridge_min.webp" type="image/webp">
+                <img 
+                  src="img/bridge_min.jpg" 
+                  alt="Entrepreneurship" 
+                  loading="lazy" 
+                  width="100%" 
+                  height="75%"
+                >
+              </picture>
             </div>
             <div class="spotlight-text">
               <h2>Entrepreneur</h2>
@@ -257,7 +285,14 @@
           <div class="business-card">
             <div class="card-content">
               <div class="card-header">
-                <img src="img/miroslav_dzhokanov_avatar.jpg" alt="Miroslav Dzhokanov" class="profile-image">
+                <picture>
+                  <source srcset="img/miroslav_dzhokanov_avatar.webp" type="image/webp">
+                  <img 
+                    src="img/miroslav_dzhokanov_avatar.jpg" 
+                    alt="Miroslav Dzhokanov" 
+                    class="profile-image"
+                  >
+                </picture>
                 <h2>Miroslav Dzhokanov</h2>
                 <p class="title">Entrepreneur & Tech Leader</p>
               </div>

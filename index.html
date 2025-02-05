@@ -384,6 +384,8 @@
       </footer>
     </div>
     
+    <a href="#" class="go-top" title="Go to top" aria-label="Go to top"></a>
+
     <script>
       // Create a promise that resolves when Dancing Script font is loaded
       const fontPromise = document.fonts.load('1em "Dancing Script"');
@@ -391,15 +393,31 @@
       // Add opacity when font is loaded
       fontPromise.then(() => {
         requestAnimationFrame(() => {
-            setTimeout(function (){
-                document.body.classList.add('loaded');
-            }, 100); // 100ms delay
+          setTimeout(function (){
+            document.body.classList.add('loaded');
+          }, 100); // 100ms delay
         });
       }).catch(() => {
         // If font fails to load, add opacity anyway after a timeout
         setTimeout(() => {
           document.body.classList.add('loaded');
         }, 1000);
+      });
+
+      // Show/hide go-top button on scroll
+      const goTop = document.querySelector('.go-top');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > window.innerHeight / 2) {
+          goTop.classList.add('visible');
+        } else {
+          goTop.classList.remove('visible');
+        }
+      });
+
+      // Smooth scroll to top
+      goTop.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     </script>
   </body>

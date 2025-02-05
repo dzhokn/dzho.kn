@@ -30,9 +30,19 @@
   direction: ltr;
 }
 
-.spotlight-image img {
+.spotlight-image {
+  position: relative;
   width: 100%;
-  height: auto;
+  padding-bottom: 75%; /* Maintains 4:3 aspect ratio */
+}
+
+.spotlight-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: var(--border-radius);
 }
 

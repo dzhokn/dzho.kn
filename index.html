@@ -40,12 +40,12 @@
         inset: 0;
         background: var(--background-color);
         z-index: 9999;
-        transition: opacity 0.5s ease-out;
+        transition: opacity 0.3s ease-out;
       }
       
       .content-wrapper {
         filter: blur(10px);
-        transition: filter 0.5s ease-out;
+        transition: filter 0.3s ease-out;
       }
       
       .loaded .content-wrapper {
@@ -136,6 +136,7 @@
       rel="preload" 
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap"
       as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     >
     
     <!-- Defer non-critical CSS -->
@@ -299,8 +300,19 @@
     </div>
     
     <script>
-      window.addEventListener('load', function() {
-        document.body.classList.add('loaded');
+      // Create a promise that resolves when Dancing Script font is loaded
+      const fontPromise = document.fonts.load('1em "Dancing Script"');
+      
+      // Remove blur when font is loaded
+      fontPromise.then(() => {
+        requestAnimationFrame(() => {
+          document.body.classList.add('loaded');
+        });
+      }).catch(() => {
+        // If font fails to load, remove blur anyway after a timeout
+        setTimeout(() => {
+          document.body.classList.add('loaded');
+        }, 1000);
       });
     </script>
   </body>

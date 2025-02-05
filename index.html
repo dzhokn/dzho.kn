@@ -185,28 +185,31 @@
       <section class="banner">
         <picture class="banner-background">
           <source
-            srcset="img/back_a_1920_1280_min.webp"
+            srcset="
+              img/back_a_640_427_min.webp 640w,
+              img/back_a_960_640_min.webp 960w,
+              img/back_a_1280_853_min.webp 1280w,
+              img/back_a_1920_1280_min.webp 1920w
+            "
+            sizes="100vw"
             type="image/webp"
-            media="(min-width: 768px)"
           >
           <source
-            srcset="img/back_a_960_640_min.webp"
-            type="image/webp"
-            media="(max-width: 767px)"
-          >
-          <source
-            srcset="img/back_a_1920_1280_min.jpg"
-            media="(min-width: 768px)"
-          >
-          <source
-            srcset="img/back_a_960_640_min.jpg"
-            media="(max-width: 767px)"
+            srcset="
+              img/back_a_640_427_min.jpg 640w,
+              img/back_a_960_640_min.jpg 960w,
+              img/back_a_1280_853_min.jpg 1280w,
+              img/back_a_1920_1280_min.jpg 1920w
+            "
+            sizes="100vw"
           >
           <img
-            src="img/back_a_1920_1280_min.jpg"
+            src="img/back_a_960_640_min.jpg"
             alt=""
             loading="eager"
             decoding="async"
+            width="1920"
+            height="1280"
           >
         </picture>
         
@@ -224,6 +227,36 @@
       <section id="first" class="spotlight">
         <div class="container-fluid text-center">
           <div class="spotlight-content">
+            <div class="spotlight-image">
+              <picture>
+                <source
+                  srcset="
+                    img/ppl_min_400.webp 400w,
+                    img/ppl_min_600.webp 600w,
+                    img/ppl_min_800.webp 800w,
+                    img/ppl_min_1000.webp 1000w,
+                    img/ppl_min_1280.webp 1280w
+                  "
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  type="image/webp"
+                >
+                <img 
+                  src="img/ppl_min_600.jpg"
+                  srcset="
+                    img/ppl_min_400.jpg 400w,
+                    img/ppl_min_600.jpg 600w,
+                    img/ppl_min_800.jpg 800w,
+                    img/ppl_min_1000.jpg 1000w,
+                    img/ppl_min_1280.jpg 1280w
+                  "
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  alt="Leadership" 
+                  loading="lazy" 
+                  width="800"
+                  height="600"
+                >
+              </picture>
+            </div>
             <div class="spotlight-text">
               <h2>Leadership</h2>
               <p>You only have control over two things in your life: your <b>thoughts</b> and your <b>actions</b>. 
@@ -232,18 +265,6 @@
               <div class="actions">
                 <a href="#second" role="button" class="outline">Go On</a>
               </div>
-            </div>
-            <div class="spotlight-image">
-              <picture>
-                <source srcset="img/ppl_min.webp" type="image/webp">
-                <img 
-                  src="img/ppl_min.jpg" 
-                  alt="Leadership" 
-                  loading="lazy" 
-                  width="100%" 
-                  height="75%"
-                >
-              </picture>
             </div>
           </div>
         </div>
@@ -254,18 +275,36 @@
           <div class="spotlight-content">
             <div class="spotlight-image">
               <picture>
-                <source srcset="img/bridge_min.webp" type="image/webp">
+                <source
+                  srcset="
+                    img/bridge_min_400.webp 400w,
+                    img/bridge_min_600.webp 600w,
+                    img/bridge_min_800.webp 800w,
+                    img/bridge_min_1000.webp 1000w,
+                    img/bridge_min_1280.webp 1280w
+                  "
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  type="image/webp"
+                >
                 <img 
-                  src="img/bridge_min.jpg" 
+                  src="img/bridge_min_600.jpg"
+                  srcset="
+                    img/bridge_min_400.jpg 400w,
+                    img/bridge_min_600.jpg 600w,
+                    img/bridge_min_800.jpg 800w,
+                    img/bridge_min_1000.jpg 1000w,
+                    img/bridge_min_1280.jpg 1280w
+                  "
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   alt="Entrepreneurship" 
-                  loading="lazy" 
-                  width="100%" 
-                  height="75%"
+                  loading="lazy"
+                  width="800"
+                  height="600"
                 >
               </picture>
             </div>
             <div class="spotlight-text">
-              <h2>Entrepreneur</h2>
+              <h2>Entrepreneurship</h2>
               <p>Entrepreneurship is, at its core, the highest form of <b>personal responsibility</b>. 
                   <br/><br/>When an entrepreneur fails, there is no room for blaming the government, employees, 
                   or customers — only oneself. This is precisely why running a startup is an immense burden, 
@@ -286,11 +325,31 @@
             <div class="card-content">
               <div class="card-header">
                 <picture>
-                  <source srcset="img/miroslav_dzhokanov_avatar.webp" type="image/webp">
+                  <source
+                    srcset="
+                      img/miroslav_dzhokanov_avatar_120.webp 120w,
+                      img/miroslav_dzhokanov_avatar_300.webp 300w,
+                      img/miroslav_dzhokanov_avatar_150.webp 150w,
+                      img/miroslav_dzhokanov_avatar_450.webp 450w,
+                      img/miroslav_dzhokanov_avatar_600.webp 600w
+                    "
+                    sizes="(max-width: 768px) 120px, (min-width: 2000px) 600px, 150px"
+                    type="image/webp"
+                  >
                   <img 
-                    src="img/miroslav_dzhokanov_avatar.jpg" 
+                    src="img/miroslav_dzhokanov_avatar_300.jpg"
+                    srcset="
+                      img/miroslav_dzhokanov_avatar_120.jpg 120w,
+                      img/miroslav_dzhokanov_avatar_300.jpg 300w,
+                      img/miroslav_dzhokanov_avatar_150.jpg 150w,
+                      img/miroslav_dzhokanov_avatar_450.jpg 450w,
+                      img/miroslav_dzhokanov_avatar_600.jpg 600w
+                    "
+                    sizes="(max-width: 768px) 200px, 300px"
                     alt="Miroslav Dzhokanov" 
                     class="profile-image"
+                    width="300"
+                    height="300"
                   >
                 </picture>
                 <h2>Miroslav Dzhokanov</h2>

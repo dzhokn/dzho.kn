@@ -176,7 +176,7 @@
 /* Typography */
 :root {
   --font-family-headings: Georgia, "Times New Roman", serif;
-  --section-padding: 2rem 20px;
+  --section-padding: 6rem 20px;
   --card-padding: 2rem;
   --transition-duration: 0.3s;
   --border-radius: 8px;
@@ -185,11 +185,18 @@
   --font-size-bio: 1.1rem;
 }
 
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 2rem 20px;
+  }
+}
+
 h1, h2, h3 {
   font-family: var(--font-family-headings);
   letter-spacing: -0.01em;
   font-weight: 600;
 }
+
 
 /* Smooth Scroll */
 html {

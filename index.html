@@ -49,7 +49,7 @@
         z-index: 9999;
         transition: opacity 1s ease-out;
       }
-      
+
       .content-wrapper {
         opacity: 0;
         transition: all 1s ease-out;
@@ -60,11 +60,11 @@
         min-height: 100vh;
         will-change: opacity;
       }
-      
+
       .loaded .content-wrapper {
         opacity: 1;
       }
-      
+
       .loaded .loading-overlay {
         opacity: 0;
         pointer-events: none;
@@ -150,7 +150,7 @@
         }
       }
     </style>
-    
+
     <!-- Defer non-critical CSS -->
     <link rel="stylesheet" href="css/pico.min.css" media="print" onload="this.media='all'">
     <link 
@@ -201,7 +201,7 @@
             height="1280"
           >
         </picture>
-        
+
         <div class="container-fluid text-center">
           <header>
             <p class="major">In the era of AI only <b>leadership</b> and <b>entrepreneurship</b> remain beyond the reach of automation.</p>
@@ -379,13 +379,13 @@
         <small>© 2025 <a href="https://dzho.kn">dzho.kn</a> • Built entirely by AI</small>
       </footer>
     </div>
-    
+
     <a href="#" class="go-top" title="Go to top" aria-label="Go to top"></a>
 
     <script>
       // Create a promise that resolves when Dancing Script font is loaded
       const fontPromise = document.fonts.load('1em "Dancing Script"');
-      
+
       // Add opacity when font is loaded
       fontPromise.then(() => {
         requestAnimationFrame(() => {
@@ -413,6 +413,7 @@
       // Smooth scroll to top
       goTop.addEventListener('click', (e) => {
         e.preventDefault();
+        history.pushState("", document.title, window.location.pathname + window.location.search); // Remove hash from URL
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     </script>

@@ -336,7 +336,6 @@ html {
   padding: 1rem 0;
   background: var(--background-color);
   border-bottom: 1px solid var(--muted-border-color);
-  z-index: 1000;
 }
 
 .header-content {

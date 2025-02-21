@@ -4,9 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
+
+    <!-- SEO Meta Tags -->
     <meta name="description" content="Miroslav Dzhokanov - Entrepreneur & Tech Leader. Passionate about leadership and building innovative solutions.">
     <meta name="keywords" content="Miroslav Dzhokanov, Leadership, Entrepreneurship, Tech Leader, Sofia">
     <meta name="author" content="Miroslav Dzhokanov">
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dzho.kn/">
     <meta property="og:title" content="Miroslav Dzhokanov | Leadership & Entrepreneurship">
@@ -15,12 +19,18 @@
     <meta property="og:image:alt" content="Miroslav Dzhokanov">
     <meta property="og:site_name" content="dzho.kn">
     <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://dzho.kn/">
     <meta name="twitter:title" content="Miroslav Dzhokanov | Leadership & Entrepreneurship">
     <meta name="twitter:description" content="In the era of AI only leadership and entrepreneurship remain beyond the reach of automation.">
     <meta name="twitter:image" content="https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg">
     <meta name="twitter:image:alt" content="Miroslav Dzhokanov">
+    <meta name="twitter:site" content="@dzhokn">
+    <meta name="twitter:creator" content="@dzhokn">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="img/favicon/android-chrome-512x512.png">  
@@ -168,6 +178,17 @@
     <title>dzho.kn | Miroslav Dzhokanov</title>
   </head>
   <body>
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="header-content">
+        <a href="" class="logo">Miroslav Dzhokanov</a>
+        <nav class="site-nav">
+          <a href="blog">Articles</a>
+          <a href="#aboutme">Contact</a>
+        </nav>
+      </div>
+    </header>
+
     <div class="loading-overlay"></div>
     <div class="content-wrapper">
       <!-- Banner -->
@@ -397,23 +418,12 @@
           document.body.classList.add('loaded');
         }, 1000);
       });
-
-      // Show/hide go-top button on scroll
-      const goTop = document.querySelector('.go-top');
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > window.innerHeight / 2) {
-          goTop.classList.add('visible');
-        } else {
-          goTop.classList.remove('visible');
-        }
-      });
-
-      // Smooth scroll to top
-      goTop.addEventListener('click', (e) => {
-        e.preventDefault();
-        history.pushState("", document.title, window.location.pathname + window.location.search); // Remove hash from URL
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
+    </script>
+    <script type="module">
+      import { initGoTop } from './js/components/go-top.js';
+      import { loadFooter } from './js/components/load-footer.js';
+      initGoTop();
+      loadFooter();
     </script>
   </body>
 </html>

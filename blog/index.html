@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Articles about leadership and entrepreneurship by Miroslav Dzhokanov">
+    <meta name="keywords" content="blog, leadership, entrepreneurship, technology, learning, productivity">
+    <meta name="author" content="Miroslav Dzhokanov">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dzho.kn/blog">
+    <meta property="og:title" content="Blog | Miroslav Dzhokanov">
+    <meta property="og:description" content="Articles about leadership and entrepreneurship by Miroslav Dzhokanov">
+    <meta property="og:image" content="https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg">
+    <meta property="og:site_name" content="dzho.kn">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@dzhokn">
+    <meta name="twitter:creator" content="@dzhokn">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../img/favicon/android-chrome-512x512.png">  
+    <link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png">
+    
+    <title>Articles | Miroslav Dzhokanov</title>
+    
+    <link rel="stylesheet" href="../css/pico.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+
+    <style>
+      /* Critical styles for above-the-fold content */
+      @font-face {
+        font-display: swap;
+        font-family: 'Dancing Script';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../fonts/dancing-script-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      }
+      :root {
+        --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        --font-family-signature: "Dancing Script", "Brush Script MT", cursive;
+      }
+
+      /* Blog listing styles */
+      .blog-listing {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--section-padding);
+      }
+
+      .blog-listing-header {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      .blog-listing-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .blog-listing-header p {
+        color: var(--muted-color);
+        font-size: 1.2rem;
+      }
+
+      .blog-posts {
+        display: grid;
+        gap: 3rem;
+      }
+
+      .blog-post-card {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        text-decoration: none;
+        color: inherit;
+        transition: transform var(--transition-duration) ease;
+      }
+
+      .blog-post-card:hover {
+        transform: translateY(-3px);
+      }
+
+      .post-image {
+        position: relative;
+        padding-bottom: 75%;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+      }
+
+      .post-image img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .post-content h2 {
+        margin: 0 0 1rem;
+        color: var(--h2-color);
+      }
+
+      .post-meta {
+        color: var(--muted-color);
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
+
+      .post-excerpt {
+        color: var(--h3-color);
+        margin: 0;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 768px) {
+        .blog-post-card {
+          grid-template-columns: 1fr;
+        }
+
+        .post-image {
+          padding-bottom: 56.25%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="header-content">
+        <a href="/" class="logo">Miroslav Dzhokanov</a>
+        <nav class="site-nav">
+          <a href="">Articles</a>
+          <a href="/#aboutme">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="blog-listing">
+      <header class="blog-listing-header">
+        <h1>Articles</h1>
+        <p>Thoughts on leadership and entrepreneurship</p>
+      </header>
+
+      <div class="blog-posts">
+        <a href="learning-tips.html" class="blog-post-card">
+          <div class="post-image">
+            <picture>
+              <source srcset="../img/blog/learning_tips_800.webp" type="image/webp">
+              <img 
+                src="../img/blog/learning_tips_800.jpg" 
+                alt="The Science of Effective Learning"
+                loading="lazy"
+                width="800"
+                height="600"
+              >
+            </picture>
+          </div>
+          <div class="post-content">
+            <h2>The Science of Effective Learning</h2>
+            <div class="post-meta">
+              <time datetime="2025-03-02">March 02, 2025</time> • 4 min read
+            </div>
+            <p class="post-excerpt">
+              Tips and tricks how to learn faster and more efficiently. Discover the five key principles 
+              that can dramatically improve your learning effectiveness.
+            </p>
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <a href="#" class="go-top" title="Go to top" aria-label="Go to top"></a>
+
+    <script type="module">
+      import { loadFooter } from '../js/components/load-footer.js';
+      import { initGoTop } from '../js/components/go-top.js';
+      loadFooter('../');
+      initGoTop();
+    </script>
+  </body>
+</html> 

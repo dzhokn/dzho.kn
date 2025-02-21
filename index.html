@@ -161,19 +161,8 @@
       }
     </style>
 
-    <!-- Defer non-critical CSS -->
-    <link rel="stylesheet" href="css/pico.min.css" media="print" onload="this.media='all'">
-    <link 
-      rel="stylesheet" 
-      href="css/custom.css" 
-      media="print" 
-      onload="this.media='all'"
-    >
-
-    <noscript>
-      <link rel="stylesheet" href="css/pico.min.css">
-      <link rel="stylesheet" href="css/custom.css">
-    </noscript>
+    <link rel="stylesheet" href="css/pico.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <title>dzho.kn | Miroslav Dzhokanov</title>
   </head>
@@ -401,27 +390,10 @@
 
     <a href="#" class="go-top" title="Go to top" aria-label="Go to top"></a>
 
-    <script>
-      // Create a promise that resolves when Dancing Script font is loaded
-      const fontPromise = document.fonts.load('1em "Dancing Script"');
-
-      // Add opacity when font is loaded
-      fontPromise.then(() => {
-        requestAnimationFrame(() => {
-          setTimeout(function (){
-            document.body.classList.add('loaded');
-          }, 100); // 100ms delay
-        });
-      }).catch(() => {
-        // If font fails to load, add opacity anyway after a timeout
-        setTimeout(() => {
-          document.body.classList.add('loaded');
-        }, 1000);
-      });
-    </script>
     <script type="module">
-      import { initGoTop } from './js/components/go-top.js';
+      import { initGoTop, initFontLoading } from './js/components/utils.js';
       initGoTop();
+      initFontLoading();
     </script>
   </body>
 </html>

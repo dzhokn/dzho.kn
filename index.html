@@ -51,6 +51,10 @@
         --font-family-signature: "Dancing Script", "Brush Script MT", cursive;
       }
 
+      header{
+        min-height: 80px; /* trick to offset the skip-me element */
+      }
+
       /* Loading styles - critical for first paint */
       .loading-overlay {
         position: fixed;
@@ -176,7 +180,7 @@
   </head>
   <body>
     <!-- Site Header -->
-    <header class="site-header">
+    <header class="site-header skip-me">
       <div class="header-content">
         <a href="" class="logo">Miroslav Dzhokanov</a>
         <nav class="site-nav">
@@ -399,9 +403,10 @@
     <a href="#" class="go-top" title="Go to top" aria-label="Go to top"></a>
 
     <script type="module">
-      import { initGoTop, initFontLoading } from './js/components/utils.js';
+      import { initGoTop, initFontLoading, unhideSkipContent } from './js/components/utils.js';
       initGoTop();
       initFontLoading();
+      unhideSkipContent();
     </script>
   </body>
 </html>

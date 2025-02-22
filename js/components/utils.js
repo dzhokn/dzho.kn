@@ -27,4 +27,15 @@ export function initFontLoading() {
       document.body.classList.add('loaded');
     }, 1000);
   });
-} 
+}
+
+// Unhide the content and jump to the right place on the page at the same time
+export function unhideSkipContent() {
+  let hidden = document.querySelector('.skip-me');
+
+  hidden.classList.remove('skip-me');
+  let el_css = window.getComputedStyle(hidden, null);
+  let h = Number(el_css.getPropertyValue('height').replace('px', ''));
+  let pb = Number(el_css.getPropertyValue('padding-bottom').replace('px', ''));
+  window.scroll(0, h + pb);
+};

@@ -1,3 +1,7 @@
+.skip-me {
+  display: none;
+}
+
 /* Spotlight sections */
 .spotlight {
   background: var(--card-background-color);

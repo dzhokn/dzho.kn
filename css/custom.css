@@ -185,12 +185,6 @@
   --font-size-bio: 1.1rem;
 }
 
-@media (max-width: 768px) {
-  :root {
-    --section-padding: 2rem 20px;
-  }
-}
-
 h1, h2, h3 {
   font-family: var(--font-family-headings);
   letter-spacing: -0.01em;
@@ -205,6 +199,9 @@ html {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  :root {
+    --section-padding: 2rem 20px;
+  }
   .spotlight-content {
     grid-template-columns: 1fr;
     gap: var(--gap-size);
@@ -217,7 +214,9 @@ html {
   .card-content {
     padding: var(--card-padding);
   }
-  
+}
+
+@media (max-width: 1080px) {
   .profile-image {
     width: 200px;
     height: 200px;

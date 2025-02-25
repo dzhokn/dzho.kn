@@ -395,6 +395,7 @@ html {
 
 .blog-img-holder {
   position: relative;
+  text-align: center;
   width: 100%;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   margin-bottom: 2rem;
@@ -409,6 +410,15 @@ html {
   object-fit: cover;
   border-radius: var(--border-radius);
 }
+
+.blog-img-holder-auto {
+  text-align: center;
+}
+
+.blog-img-holder-auto img {
+  border-radius: var(--border-radius);
+}
+
 
 .blog-content {
   font-size: var(--font-size-bio);

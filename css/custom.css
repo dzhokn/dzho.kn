@@ -458,27 +458,3 @@ html {
     font-size: 2rem;
   }
 }
-
-/* Blog post tags */
-.post-tags {
-  margin-top: 1rem;
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.tag {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  background-color: var(--card-background-color);
-  color: var(--card-color);
-  border-radius: var(--border-radius);
-  font-size: 0.875rem;
-  text-decoration: none;
-  transition: background-color var(--transition-duration) ease;
-}
-
-.tag:hover {
-  background-color: var(--card-border-color);
-  color: var(--card-background-color);
-}

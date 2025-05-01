@@ -37,34 +37,18 @@
     <link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png">
 
     <title>The Science of Effective Learning | Miroslav Dzhokanov</title>
-    
-    <link
-      rel="stylesheet"
-      href="../css/pico.min.css"
-      media="print"
-      onload="this.media='all'"
-    >
-    <noscript>
-      <link rel="stylesheet" href="../css/pico.min.css">
-    </noscript>
-    <link rel="stylesheet" href="../css/custom.css">
 
-    <!-- Additional blog styles -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/pico.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="../css/pico.min.css"></noscript>
+    <link rel="stylesheet" href="../css/custom.css">
+    <!-- Critical styles for above-the-fold content -->
     <style>
-      /* Critical styles for above-the-fold content */
-      @font-face {
-        font-display: swap;
-        font-family: 'Dancing Script';
-        font-style: normal;
-        font-weight: 400;
-        src: url('../fonts/dancing-script-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-      }
-      :root {
-        --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        --font-family-signature: "Dancing Script", "Brush Script MT", cursive;
-      }
+        @font-face {font-display: swap;font-family: 'Dancing Script';font-style: normal;font-weight: 400; src: url('../fonts/dancing-script-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */}
+        :root {--font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; --font-family-signature: "Dancing Script", "Brush Script MT", cursive;}
     </style>
   </head>
+
   <body>
     <!-- Site Header -->
     <header class="site-header">
@@ -87,11 +71,12 @@
 
       <div class="blog-img-holder">
         <picture>
-          <source media="(max-width:350px)" srcset="../img/blog/1/learning_tips_400.webp">
+          <source media="(max-width:400px)" srcset="../img/blog/1/learning_tips_400.webp">
           <source media="(max-width:800px)" srcset="../img/blog/1/learning_tips_800.webp">
           <source media="(max-width:1200px)" srcset="../img/blog/1/learning_tips_1200.webp">
+          <source srcset="../img/blog/1/learning_tips_1450.webp">
           <img 
-            src="../img/blog/1/learning_tips_1450.webp"
+            src="../img/blog/1/learning_tips_1450.jpg"
             alt="Investing in learning is like growing a seed"
             width="1450"
             height="705"

@@ -11,7 +11,7 @@ Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
 
 ## Articles
 
-### How Is Motivation Built?
+### How to Build Motivation
 - URL: /blog/how-to-build-motivation
 - Date: December 25, 2025
 - Summary: A conversation with high school students reveals four classes of motivation - from external rewards to intrinsic drive. Motivation starts with showing up, then values, then curiosity.

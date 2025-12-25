@@ -1,0 +1,55 @@
+# Miroslav Dzhokanov
+
+> Personal blog about leadership, entrepreneurship, and raising resilient children.
+
+## Author
+Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
+
+## Main Sections
+- /blog/ - Articles on leadership, parenting, health, and personal development
+- /blog/parent-leadership/ - Articles specifically about raising resilient children
+
+## Articles
+
+### How Is Motivation Built?
+- URL: /blog/how-to-build-motivation
+- Date: December 25, 2025
+- Summary: A conversation with high school students reveals four classes of motivation - from external rewards to intrinsic drive. Motivation starts with showing up, then values, then curiosity.
+
+### Do Not Make Your Kid's Life Easy or Happy
+- URL: /blog/comfort-trap
+- Date: April 30, 2025
+- Summary: Why constant comfort prevents children from developing emotional resilience. Struggle is essential for growth. Guidance without control builds capable adults.
+
+### Building Self-Control: The Marshmallow Effect
+- URL: /blog/delayed-gratification
+- Date: April 24, 2025
+- Summary: The Stanford marshmallow experiment and its implications for parenting. Children who delay gratification show better outcomes in academics, relationships, and stress management.
+
+### More Muscle - More Life
+- URL: /blog/muscle-longevity
+- Date: April 25, 2025
+- Summary: Scientific research linking muscle mass to longevity. Studies show up to 81% reduction in mortality risk with higher muscle mass. Practical guidance on resistance training and protein intake.
+
+### The Tall Girl Problem
+- URL: /blog/tall-girl-problem
+- Date: April 26, 2025
+- Summary: Analysis of modern dating dynamics and hypergamy. How educational and career success has changed relationship patterns, leading to increased loneliness.
+
+### The Science of Effective Learning
+- URL: /blog/learning-tips
+- Date: March 2, 2025
+- Summary: Five key principles for effective learning - quality sleep, dedicated time, consistent schedule, minimizing distractions, and active recall through self-testing.
+
+## Core Philosophy
+The blog emphasizes delayed gratification, personal responsibility, struggle as growth, and long-term thinking over instant comfort.
+
+## Contact
+https://dzho.kn/#aboutme
+
+## Social
+- Facebook: https://www.facebook.com/dzho.kn
+- Instagram: https://www.instagram.com/dzho.kn/
+- LinkedIn: https://www.linkedin.com/in/dzhokn/
+- GitHub: https://github.com/dzhokn
+- Hugging Face: https://huggingface.co/dzhokn

@@ -1,0 +1,6 @@
+# Redirect www to non-www (primary domain)
+https://www.dzho.kn/* https://dzho.kn/:splat 301
+
+# Ensure trailing slash consistency for directories
+/blog /blog/ 301
+/blog/parent-leadership /blog/parent-leadership/ 301

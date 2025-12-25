@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dzho.kn</loc>
-    <lastmod>2025-04-30</lastmod>
+    <lastmod>2025-12-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://dzho.kn/blog/</loc>
-    <lastmod>2025-04-30</lastmod>
+    <lastmod>2025-12-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://dzho.kn/blog/parent-leadership/</loc>
-    <lastmod>2025-04-30</lastmod>
+    <lastmod>2025-12-25</lastmod>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://dzho.kn/blog/how-to-build-motivation</loc>
+    <lastmod>2025-12-25</lastmod>
+    <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://dzho.kn/blog/learning-tips</loc>

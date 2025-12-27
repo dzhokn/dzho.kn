@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    
+
     <!-- SEO Meta Tags -->
     <meta name="description" content="Articles about leadership and entrepreneurship by Miroslav Dzhokanov">
     <meta name="keywords" content="blog, leadership, entrepreneurship, technology, learning, productivity">
     <meta name="author" content="Miroslav Dzhokanov">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dzho.kn/blog">
@@ -18,26 +18,26 @@
     <meta property="og:image" content="https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg">
     <meta property="og:site_name" content="dzho.kn">
     <meta property="og:locale" content="en_US">
-    
-    <!-- Twitter -->  
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@dzhokn">
     <meta name="twitter:creator" content="@dzhokn">
-    
+
     <!-- Canonical -->
     <link rel="canonical" href="https://dzho.kn/blog/">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../img/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="../img/favicon/android-chrome-512x512.png">  
+    <link rel="icon" type="image/png" sizes="512x512" href="../img/favicon/android-chrome-512x512.png">
     <link rel="apple-touch-icon" href="../img/favicon/apple-touch-icon.png">
 
     <!-- Font Preload -->
     <link rel="preload" as="font" href="../fonts/dancing-script-v25-latin-regular.woff2" type="font/woff2" crossorigin>
 
     <title>Articles | Miroslav Dzhokanov</title>
-    
+
     <link
       rel="stylesheet"
       href="../css/pico.min.css"
@@ -82,7 +82,7 @@
       }
 
       .blog-listing-header p {
-        color: var(--muted-color);
+        color: var(--primary);
         font-size: 1.2rem;
       }
 
@@ -92,11 +92,10 @@
       }
 
       .blog-post-card {
+        position: relative;
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 2rem;
-        text-decoration: none;
-        color: inherit;
         transition: transform var(--transition-duration) ease;
       }
 
@@ -123,10 +122,33 @@
         color: var(--h2-color);
       }
 
+      .post-content h2 a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .post-content h2 a::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+      }
+
       .post-meta {
-        color: var(--muted-color);
+        color: var(--primary);
         font-size: 0.9rem;
         margin-bottom: 1rem;
+      }
+
+      .post-meta a.tag {
+        position: relative;
+        z-index: 2;
+        color: var(--pico-primary) !important;
+        text-decoration: underline;
+      }
+
+      .post-meta a.tag:hover {
+        color: var(--pico-primary-hover) !important;
       }
 
       .post-excerpt {
@@ -166,7 +188,7 @@
 
       <div class="blog-posts">
 
-        <a href="how-a-woman-chooses-a-man" class="blog-post-card">
+        <div class="blog-post-card">
           <div class="post-image">
             <picture>
               <source media="(max-width:400px)" srcset="../img/blog/7/choosing_a_man_400.webp" type="image/webp">
@@ -181,17 +203,17 @@
             </picture>
           </div>
           <div class="post-content">
-            <h2>How a Woman Chooses a Man</h2>
+            <h2><a href="how-a-woman-chooses-a-man">How a Woman Chooses a Man</a></h2>
             <div class="post-meta">
-              <time datetime="2025-12-27">December 27, 2025</time> • 3 min read
+              <time datetime="2025-12-27">December 27, 2025</time> • 3 min read • <a href="relationships" class="tag">Relationships</a>
             </div>
             <p class="post-excerpt">
               Reliability matters more than charm in long-term partnerships. A father's perspective on what women should look for in a man.
             </p>
           </div>
-        </a>
+        </div>
 
-        <a href="how-to-build-motivation" class="blog-post-card">
+        <div class="blog-post-card">
           <div class="post-image">
             <picture>
               <source media="(max-width:400px)" srcset="../img/blog/6/motivation_400.webp" type="image/webp">
@@ -206,17 +228,17 @@
             </picture>
           </div>
           <div class="post-content">
-            <h2>How to Build Motivation</h2>
+            <h2><a href="how-to-build-motivation">How to Build Motivation</a></h2>
             <div class="post-meta">
-              <time datetime="2025-12-25">December 25, 2025</time> • 5 min read
+              <time datetime="2025-12-25">December 25, 2025</time> • 5 min read • <a href="parent-leadership" class="tag">Parent Leadership</a>
             </div>
             <p class="post-excerpt">
               A conversation with high school students reveals practical insights about motivation - from doing what needs to be done to finding intrinsic drive.
             </p>
           </div>
-        </a>
+        </div>
 
-        <a href="comfort-trap" class="blog-post-card">
+        <div class="blog-post-card">
           <div class="post-image">
             <picture>
               <source media="(max-width:400px)" srcset="../img/blog/5/comfort_trap_400.webp" type="image/webp">
@@ -231,17 +253,17 @@
             </picture>
           </div>
           <div class="post-content">
-            <h2>Do Not Make Your Kid's Life Easy or Happy</h2>
+            <h2><a href="comfort-trap">Do Not Make Your Kid's Life Easy or Happy</a></h2>
             <div class="post-meta">
-              <time datetime="2025-04-30">April 30, 2025</time> • 4 min read
+              <time datetime="2025-04-30">April 30, 2025</time> • 4 min read • <a href="parent-leadership" class="tag">Parent Leadership</a>
             </div>
             <p class="post-excerpt">
               Why making life too easy for children can be detrimental to their development and how to raise resilient, self-reliant adults.
             </p>
           </div>
-        </a>
+        </div>
 
-        <a href="tall-girl-problem" class="blog-post-card">
+        <div class="blog-post-card">
           <div class="post-image">
             <picture>
               <source media="(max-width:400px)" srcset="../img/blog/4/tall_girl_problem_400.webp" type="image/webp">
@@ -256,17 +278,17 @@
             </picture>
           </div>
           <div class="post-content">
-            <h2>The Tall Girl Problem</h2>
+            <h2><a href="tall-girl-problem">The Tall Girl Problem</a></h2>
             <div class="post-meta">
-              <time datetime="2025-04-26">April 26, 2025</time> • 6 min read
+              <time datetime="2025-04-26">April 26, 2025</time> • 6 min read • <a href="relationships" class="tag">Relationships</a>
             </div>
             <p class="post-excerpt">
               Exploring the modern dating landscape and the challenges of finding meaningful connections in today's society.
             </p>
           </div>
-        </a>
+        </div>
 
-        <a href="muscle-longevity" class="blog-post-card">
+        <div class="blog-post-card">
           <div class="post-image">
             <picture>
               <source media="(max-width:400px)" srcset="../img/blog/3/muscle_longevity_400.webp" type="image/webp">
@@ -281,17 +303,17 @@
             </picture>
           </div>
           <div class="post-content">
-            <h2>More Muscle - More Life</h2>
+            <h2><a href="muscle-longevity">More Muscle - More Life</a></h2>
             <div class="post-meta">
-              <time datetime="2025-04-25">April 25, 2025</time> • 5 min read
+              <time datetime="2025-04-25">April 25, 2025</time> • 5 min read • <a href="health" class="tag">Health</a>
             </div>
             <p class="post-excerpt">
               Multiple scientific research papers show correlation between muscle mass and longevity.
             </p>
           </div>
-        </a>
+        </div>
 
-        <a href="delayed-gratification" class="blog-post-card">
+        <div class="blog-post-card">
           <div class="post-image">
             <picture>
               <source media="(max-width:400px)" srcset="../img/blog/2/delayed_gratification_400.webp" type="image/webp">
@@ -306,18 +328,18 @@
             </picture>
           </div>
           <div class="post-content">
-            <h2>Building Self-Control: The Marshmallow Effect</h2>
+            <h2><a href="delayed-gratification">Building Self-Control: The Marshmallow Effect</a></h2>
             <div class="post-meta">
-              <time datetime="2025-04-24">April 24, 2025</time> • 4 min read
+              <time datetime="2025-04-24">April 24, 2025</time> • 4 min read • <a href="parent-leadership" class="tag">Parent Leadership</a>
             </div>
             <p class="post-excerpt">
               Discover how to develop delayed gratification skills in your children through
               the lens of the famous Stanford marshmallow experiment and practical parenting tips.
             </p>
           </div>
-        </a>
+        </div>
 
-        <a href="learning-tips" class="blog-post-card">
+        <div class="blog-post-card">
           <div class="post-image">
             <picture>
               <source media="(max-width:400px)" srcset="../img/blog/1/learning_tips_400.webp" type="image/webp">
@@ -332,16 +354,16 @@
             </picture>
           </div>
           <div class="post-content">
-            <h2>The Science of Effective Learning</h2>
+            <h2><a href="learning-tips">The Science of Effective Learning</a></h2>
             <div class="post-meta">
-              <time datetime="2025-03-02">March 02, 2025</time> • 3 min read
+              <time datetime="2025-03-02">March 02, 2025</time> • 3 min read • <a href="efficiency" class="tag">Efficiency</a>
             </div>
             <p class="post-excerpt">
-              Tips and tricks how to learn faster and more efficiently. Discover the five key principles 
+              Tips and tricks how to learn faster and more efficiently. Discover the five key principles
               that can dramatically improve your learning effectiveness.
             </p>
           </div>
-        </a>
+        </div>
       </div>
     </main>
 
@@ -424,4 +446,4 @@
     }
     </script>
   </body>
-</html> 
+</html>

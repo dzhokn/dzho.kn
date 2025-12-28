@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Miroslav Dzhokanov - Articles</title>
+    <link>https://dzho.kn/blog/</link>
+    <description>Articles about leadership, entrepreneurship, and raising resilient children by Miroslav Dzhokanov</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Dec 2025 12:00:00 +0200</lastBuildDate>
+    <atom:link href="https://dzho.kn/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg</url>
+      <title>Miroslav Dzhokanov - Articles</title>
+      <link>https://dzho.kn/blog/</link>
+    </image>
+
+    <item>
+      <title>How a Woman Chooses a Man</title>
+      <link>https://dzho.kn/blog/how-a-woman-chooses-a-man</link>
+      <description>Reliability matters more than charm in long-term partnerships. A father's perspective on what women should look for in a man - and what men should demand in return.</description>
+      <pubDate>Sat, 27 Dec 2025 12:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/how-a-woman-chooses-a-man</guid>
+      <category>Relationships</category>
+    </item>
+
+    <item>
+      <title>How to Build Motivation</title>
+      <link>https://dzho.kn/blog/how-to-build-motivation</link>
+      <description>A conversation with high school students reveals practical insights about motivation - from doing what needs to be done to finding intrinsic drive.</description>
+      <pubDate>Thu, 25 Dec 2025 12:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/how-to-build-motivation</guid>
+      <category>Parent Leadership</category>
+    </item>
+
+    <item>
+      <title>Do Not Make Your Kid's Life Easy or Happy</title>
+      <link>https://dzho.kn/blog/comfort-trap</link>
+      <description>Why making life too easy for children can be detrimental to their development and how to raise resilient, self-reliant adults.</description>
+      <pubDate>Wed, 30 Apr 2025 12:00:00 +0300</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/comfort-trap</guid>
+      <category>Parent Leadership</category>
+    </item>
+
+    <item>
+      <title>The Tall Girl Problem</title>
+      <link>https://dzho.kn/blog/tall-girl-problem</link>
+      <description>Exploring the modern dating landscape and the challenges of finding meaningful connections in today's society.</description>
+      <pubDate>Sat, 26 Apr 2025 12:00:00 +0300</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/tall-girl-problem</guid>
+      <category>Relationships</category>
+    </item>
+
+    <item>
+      <title>More Muscle - More Life</title>
+      <link>https://dzho.kn/blog/muscle-longevity</link>
+      <description>Multiple scientific research papers show correlation between muscle mass and longevity.</description>
+      <pubDate>Fri, 25 Apr 2025 12:00:00 +0300</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/muscle-longevity</guid>
+      <category>Health</category>
+    </item>
+
+    <item>
+      <title>Building Self-Control: The Marshmallow Effect</title>
+      <link>https://dzho.kn/blog/delayed-gratification</link>
+      <description>Discover how to develop delayed gratification skills in children through the lens of the famous Stanford marshmallow experiment and practical parenting tips.</description>
+      <pubDate>Thu, 24 Apr 2025 12:00:00 +0300</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/delayed-gratification</guid>
+      <category>Parent Leadership</category>
+    </item>
+
+    <item>
+      <title>The Science of Effective Learning</title>
+      <link>https://dzho.kn/blog/learning-tips</link>
+      <description>Tips and tricks how to learn faster and more efficiently.</description>
+      <pubDate>Sun, 02 Mar 2025 12:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/learning-tips</guid>
+      <category>Efficiency</category>
+    </item>
+
+  </channel>
+</rss>

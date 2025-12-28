@@ -11,6 +11,11 @@ Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
 
 ## Articles
 
+### How a Woman Chooses a Man
+- URL: /blog/how-a-woman-chooses-a-man
+- Date: December 27, 2025
+- Summary: Reliability matters more than charm in long-term partnerships. A father's perspective on what women should look for in a man - and what men should demand in return.
+
 ### How to Build Motivation
 - URL: /blog/how-to-build-motivation
 - Date: December 25, 2025
@@ -46,6 +51,9 @@ The blog emphasizes delayed gratification, personal responsibility, struggle as 
 
 ## Contact
 https://dzho.kn/#aboutme
+
+## RSS Feed
+https://dzho.kn/feed.xml
 
 ## Social
 - Facebook: https://www.facebook.com/dzho.kn

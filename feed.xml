@@ -5,13 +5,22 @@
     <link>https://dzho.kn/blog/</link>
     <description>Articles about leadership, entrepreneurship, and raising resilient children by Miroslav Dzhokanov</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Dec 2025 14:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2025 16:00:00 +0200</lastBuildDate>
     <atom:link href="https://dzho.kn/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg</url>
       <title>Miroslav Dzhokanov - Articles</title>
       <link>https://dzho.kn/blog/</link>
     </image>
+
+    <item>
+      <title>Can You Be Successful and Yet Unhappy?</title>
+      <link>https://dzho.kn/blog/happiness</link>
+      <description>Success doesn't guarantee happiness. A reflection on what happiness actually is - not a feeling or destination, but something you build through enjoyment, satisfaction, and meaning.</description>
+      <pubDate>Sat, 28 Dec 2025 12:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/happiness</guid>
+      <category>Efficiency</category>
+    </item>
 
     <item>
       <title>How a Woman Chooses a Man</title>

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Статии на български език от Мирослав Джоканов">
+    <meta name="keywords" content="блог, лидерство, предприемачество, родителство, образование">
+    <meta name="author" content="Miroslav Dzhokanov">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dzho.kn/blog/bg/">
+    <meta property="og:title" content="Статии на български | Miroslav Dzhokanov">
+    <meta property="og:description" content="Статии на български език от Мирослав Джоканов">
+    <meta property="og:image" content="https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg">
+    <meta property="og:site_name" content="dzho.kn">
+    <meta property="og:locale" content="bg_BG">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@dzhokn">
+    <meta name="twitter:creator" content="@dzhokn">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://dzho.kn/blog/bg/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../../img/favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" href="../../img/favicon/apple-touch-icon.png">
+
+    <!-- Font Preload -->
+    <link rel="preload" as="font" href="../../fonts/dancing-script-v25-latin-regular.woff2" type="font/woff2" crossorigin>
+
+    <title>Статии на български | Miroslav Dzhokanov</title>
+
+    <link rel="stylesheet" href="../../css/pico.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="../../css/pico.min.css"></noscript>
+    <link rel="stylesheet" href="../../css/custom.min.css">
+    <link rel="stylesheet" href="../../css/custom-blog.min.css">
+
+    <style>
+      /* Critical styles for above-the-fold content */
+      @font-face {
+        font-display: swap;
+        font-family: 'Dancing Script';
+        font-style: normal;
+        font-weight: 400;
+        src: url('../../fonts/dancing-script-v25-latin-regular.woff2') format('woff2');
+      }
+      :root {
+        --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        --font-family-signature: "Dancing Script", "Brush Script MT", cursive;
+      }
+
+      /* Blog listing styles */
+      .blog-listing {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--section-padding);
+      }
+
+      .blog-listing-header {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      .blog-listing-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .blog-listing-header p {
+        color: var(--pico-muted-color);
+        font-size: 1.2rem;
+      }
+
+      .blog-posts {
+        display: grid;
+        gap: 3rem;
+      }
+
+      .blog-post-card {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+        transition: transform var(--transition-duration) ease;
+      }
+
+      .blog-post-card:hover {
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+      }
+
+      .post-image {
+        position: relative;
+        padding-bottom: 75%;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+      }
+
+      .post-image img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .post-content h2 {
+        margin: 0 0 1rem;
+        color: var(--pico-h2-color);
+      }
+
+      .post-content h2 a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .post-content h2 a::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+      }
+
+      .post-meta {
+        color: var(--pico-muted-color);
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
+
+      .post-meta a.tag {
+        position: relative;
+        z-index: 2;
+        color: var(--pico-primary) !important;
+        text-decoration: underline;
+      }
+
+      .post-meta a.tag:hover {
+        color: var(--pico-primary-hover) !important;
+      }
+
+      .post-excerpt {
+        color: var(--pico-h3-color);
+        margin: 0;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 768px) {
+        .blog-post-card {
+          grid-template-columns: 1fr;
+        }
+
+        .post-image {
+          padding-bottom: 56.25%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="header-content">
+        <a href="/" class="logo">Miroslav Dzhokanov</a>
+        <nav class="site-nav">
+          <a href="/blog">Статии</a>
+          <a href="/#aboutme">Контакти</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="blog-listing">
+      <header class="blog-listing-header">
+        <h1>Статии на български</h1>
+        <p>Мисли за лидерство и предприемачество</p>
+      </header>
+
+      <div class="blog-posts">
+
+        <div class="blog-post-card">
+          <div class="post-image">
+            <picture>
+              <source media="(max-width:400px)" srcset="../../img/blog/9/school_choice_400.webp" type="image/webp">
+              <source srcset="../../img/blog/9/school_choice_800.webp" type="image/webp">
+              <img
+                src="../../img/blog/9/school_choice_400.jpg"
+                alt="Къде да учи детето ми?"
+                loading="lazy"
+                width="800"
+                height="600"
+              >
+            </picture>
+          </div>
+          <div class="post-content">
+            <h2><a href="school-choice">Къде да учи детето ми?</a></h2>
+            <div class="post-meta">
+              <time datetime="2026-01-17">17 януари 2026</time> • 7 мин четене • <a href="." class="tag">BG</a>
+            </div>
+            <p class="post-excerpt">
+              Къде да запиша детето си? Държавно или частно училище? Лично мнение за избора на училище в България, базирано на години наблюдение и личен опит.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <a href="#" class="go-top" title="Към началото" aria-label="Към началото"></a>
+
+    <footer class="site-footer">
+      <div class="social-links">
+        <a class="icon-facebook" href="https://www.facebook.com/dzho.kn" title="Facebook"></a>
+        <a class="icon-instagram" href="https://www.instagram.com/dzho.kn/" title="Instagram"></a>
+        <a class="icon-linkedin" href="https://www.linkedin.com/in/dzhokn/" title="LinkedIn"></a>
+        <a class="icon-github" href="https://github.com/dzhokn" title="GitHub"></a>
+        <a class="icon-robot" href="https://huggingface.co/dzhokn" title="Hugging Face"></a>
+      </div>
+      <small>© 2026 <a href="https://dzho.kn">dzho.kn</a> • Създаден изцяло с AI</small>
+    </footer>
+
+    <script type="module">
+      import { initGoTop, initFontLoading } from '../../js/components/utils.js';
+      initGoTop();
+      initFontLoading();
+    </script>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Статии на български от Мирослав Джоканов",
+      "description": "Мисли за лидерство и предприемачество",
+      "url": "https://dzho.kn/blog/bg/",
+      "inLanguage": "bg",
+      "author": {
+        "@type": "Person",
+        "name": "Miroslav Dzhokanov",
+        "url": "https://dzho.kn"
+      },
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Къде да учи детето ми?",
+          "url": "https://dzho.kn/blog/bg/school-choice",
+          "datePublished": "2026-01-17",
+          "inLanguage": "bg"
+        }
+      ]
+    }
+    </script>
+  </body>
+</html>

@@ -7,12 +7,12 @@
   </url>
   <url>
     <loc>https://dzho.kn/blog/</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://dzho.kn/blog/parent-leadership/</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -29,6 +29,16 @@
     <loc>https://dzho.kn/blog/efficiency/</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://dzho.kn/blog/bg/</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://dzho.kn/blog/bg/school-choice</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://dzho.kn/blog/happiness</loc>
@@ -72,7 +82,7 @@
   </url>
   <url>
     <loc>https://dzho.kn/feed.xml</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

@@ -6,10 +6,11 @@
 Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
 
 ## Main Sections
-- /blog/ - Articles on leadership, parenting, health, and personal development
-- /blog/parent-leadership/ - Articles specifically about raising resilient children
+- /blog/ - Articles in English on leadership, parenting, health, and personal development
+- /blog/bg/ - Articles in Bulgarian (Статии на български)
+- /blog/parent-leadership/ - English articles about raising resilient children
 
-## Articles
+## Articles (English)
 
 ### What is More Important - Success or Happiness?
 - URL: /blog/happiness
@@ -50,6 +51,13 @@ Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
 - URL: /blog/learning-tips
 - Date: March 2, 2025
 - Summary: Five key principles for effective learning - quality sleep, dedicated time, consistent schedule, minimizing distractions, and active recall through self-testing.
+
+## Статии на български (Bulgarian Articles)
+
+### Къде да учи детето ми?
+- URL: /blog/bg/school-choice
+- Date: January 17, 2026
+- Summary: Where should my child study? Public or private school? Personal opinion on school choice in Bulgaria, based on years of observation and experience.
 
 ## Core Philosophy
 The blog emphasizes delayed gratification, personal responsibility, struggle as growth, and long-term thinking over instant comfort.

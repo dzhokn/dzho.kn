@@ -5,13 +5,22 @@
     <link>https://dzho.kn/blog/</link>
     <description>Articles about leadership, entrepreneurship, and raising resilient children by Miroslav Dzhokanov</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Dec 2025 16:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 12:00:00 +0200</lastBuildDate>
     <atom:link href="https://dzho.kn/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg</url>
       <title>Miroslav Dzhokanov - Articles</title>
       <link>https://dzho.kn/blog/</link>
     </image>
+
+    <item>
+      <title>Къде да учи детето ми?</title>
+      <link>https://dzho.kn/blog/bg/school-choice</link>
+      <description>Къде да запиша детето си? Държавно или частно училище? Лично мнение за избора на училище в България, базирано на години наблюдение и личен опит.</description>
+      <pubDate>Sat, 17 Jan 2026 12:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/bg/school-choice</guid>
+      <category>Parent Leadership</category>
+    </item>
 
     <item>
       <title>What is More Important - Success or Happiness?</title>

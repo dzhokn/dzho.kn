@@ -32,8 +32,13 @@
   </url>
   <url>
     <loc>https://dzho.kn/blog/bg/</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://dzho.kn/blog/bg/happiness</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://dzho.kn/blog/bg/school-choice</loc>
@@ -87,7 +92,7 @@
   </url>
   <url>
     <loc>https://dzho.kn/feed.xml</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-28</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

@@ -5,13 +5,23 @@
     <link>https://dzho.kn/blog/</link>
     <description>Articles about leadership, entrepreneurship, and raising resilient children by Miroslav Dzhokanov</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jan 2026 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 12:00:00 +0200</lastBuildDate>
     <atom:link href="https://dzho.kn/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg</url>
       <title>Miroslav Dzhokanov - Articles</title>
       <link>https://dzho.kn/blog/</link>
     </image>
+
+    <item>
+      <title>Какво е по-важно - успехът или щастието?</title>
+      <link>https://dzho.kn/blog/bg/happiness</link>
+      <description>Често си казваме: когато постигна X, ще се отпусна или когато приключа Y, ще започна да се наслаждавам на живота. Но X и Y се случват и след кратък прилив на радост отново се връщаме към обичайното си състояние.</description>
+      <pubDate>Wed, 28 Jan 2026 12:00:00 +0200</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/bg/happiness</guid>
+      <category>Efficiency</category>
+      <category>BG</category>
+    </item>
 
     <item>
       <title>Къде да учи детето ми?</title>

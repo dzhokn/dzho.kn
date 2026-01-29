@@ -59,6 +59,11 @@ Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
 
 ## Статии на български (Bulgarian Articles)
 
+### Какво е по-важно - успехът или щастието?
+- URL: /blog/bg/happiness
+- Date: January 28, 2026
+- Summary: We often tell ourselves: when I achieve X, I'll relax, or when I finish Y, I'll start enjoying life. But X and Y happen, and after a brief surge of joy, we return to our usual state.
+
 ### Къде да учи детето ми?
 - URL: /blog/bg/school-choice
 - Date: January 17, 2026

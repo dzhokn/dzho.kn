@@ -5,13 +5,32 @@
     <link>https://dzho.kn/blog/</link>
     <description>Articles about leadership, entrepreneurship, and raising resilient children by Miroslav Dzhokanov</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 12:00:00 +0300</lastBuildDate>
     <atom:link href="https://dzho.kn/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://dzho.kn/img/miroslav_dzhokanov_avatar.jpg</url>
       <title>Miroslav Dzhokanov - Articles</title>
       <link>https://dzho.kn/blog/</link>
     </image>
+
+    <item>
+      <title>Math or Language in the era of AI</title>
+      <link>https://dzho.kn/blog/math-or-language-ai</link>
+      <description>Math or Language in the era of AI - which path prepares your child for a world where careers shift every decade? A data-grounded look at what skills actually matter.</description>
+      <pubDate>Tue, 21 Apr 2026 12:00:00 +0300</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/math-or-language-ai</guid>
+      <category>Parent Leadership</category>
+    </item>
+
+    <item>
+      <title>Математика или езици в ерата на ИИ</title>
+      <link>https://dzho.kn/blog/bg/math-or-language-ai</link>
+      <description>Математика или езици в ерата на ИИ - кой път подготвя детето ви за свят, където професиите се сменят всяко десетилетие? Данни-основан поглед на умения, които наистина имат значение.</description>
+      <pubDate>Wed, 22 Apr 2026 12:00:00 +0300</pubDate>
+      <guid isPermaLink="true">https://dzho.kn/blog/bg/math-or-language-ai</guid>
+      <category>Parent Leadership</category>
+      <category>BG</category>
+    </item>
 
     <item>
       <title>Какво е по-важно - успехът или щастието?</title>

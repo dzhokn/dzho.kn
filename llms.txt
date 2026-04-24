@@ -12,6 +12,11 @@ Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
 
 ## Articles (English)
 
+### Math or Language in the era of AI
+- URL: /blog/math-or-language-ai
+- Date: April 21, 2026
+- Summary: Math or Language in the era of AI-which path prepares your child for a world where careers shift every decade? A data-grounded look at what skills actually matter.
+
 ### Where Should My Child Study?
 - URL: /blog/school-choice
 - Date: January 17, 2026
@@ -58,6 +63,11 @@ Miroslav Dzhokanov - Entrepreneur & Tech Leader based in Sofia, Bulgaria.
 - Summary: Five key principles for effective learning - quality sleep, dedicated time, consistent schedule, minimizing distractions, and active recall through self-testing.
 
 ## Статии на български (Bulgarian Articles)
+
+### Математика или езици в ерата на ИИ
+- URL: /blog/bg/math-or-language-ai
+- Date: April 22, 2026
+- Summary: Математика или езици в ерата на ИИ - кой път подготвя детето ви за свят, където професиите се сменят всяко десетилетие? Данни-основан поглед на умения, които наистина имат значение.
 
 ### Какво е по-важно - успехът или щастието?
 - URL: /blog/bg/happiness
